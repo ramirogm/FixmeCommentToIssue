@@ -1,0 +1,14 @@
+{
+  "name": "FixmeCommentToIssue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramiro González Maciel <ramirogm@gmail.com>",
+  "license": "Free",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
