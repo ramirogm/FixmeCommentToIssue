@@ -6,7 +6,7 @@ These comments may get lost or forgotten and "discovered" several months later. 
 
 ## Implementation
 
-This webtask works as a GitHub WebHook; every time there's a `push`event, it parses each commit and if it finds a XXX comment ( as in ) it creates a GitHub issue.
+This webtask works as a GitHub WebHook; every time there's a `push` event, it parses each commit and if it finds a {XXX|FIXME|TODO} comment, it creates a GitHub issue.
 
 This webtask parses the commit patches, looking for *new* lines that contain a "task comment" ( XXX, TODO, FIXME). It then creates an issue for each one.
 
